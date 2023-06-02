@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@font-face {
+    font-family: android ;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: rgb(206, 209, 166);
+    margin:0px;
+   
+}
+
+main{
+    margin: 0px auto;
+    background-color: rgb(241, 237, 237);
+    border-radius: 0px 0px 15px 15px; 
+    max-width: 813px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+   
+}
+
+header{
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(121, 224, 121), rgb(58, 100, 58)) ;
+    margin:0px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+header > p{
+    width: 350px;
+    margin: 25px auto;
+    text-shadow: 3px 3px 4px #1a1a1a6c;
+    font-size: 20px;
+}
+
+header > h1{
+    text-shadow: 3px 3px 0px #1a1a1a6c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}  
+
+nav{
+    text-align: left;
+    margin: 0px;
+    width: 400px;
+}
+
+nav  a{
+   padding: 10px;
+   color: rgb(255, 243, 243);
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bolder;
+  
+}
+
+article > h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding: 20px;
+    margin: 0px;
+    font-size: 40px;
+}
+
+article > h2{
+    font-family: 'android', sans-serif;
+    background-image: linear-gradient(to right, rgb(127, 146, 102), transparent);
+    text-indent: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+
+article > p{
+    text-indent: 15px;
+}
+
+#imagem{
+    margin: auto;
+    display: block;
+    width: 50%;
+    min-width: 300px;
+ 
+}
+
+
+.video{
+    position: relative;
+    padding-bottom: 56.5%;
+    margin-bottom: 30px;
+}
+
+
+.video > iframe{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    
+}
+
+
+
+#pergunta{
+    background-color: rgb(112, 201, 112);
+    border-radius: 5px 5px 0px 0px;
+    margin:  10px 10px 0px 10px;
+}
+
+#aside{
+    margin: 0px 10px 10px 10px;
+    background-color: rgb(81, 107, 81);
+    border-radius: 0px 0px 5px 5px ;
+    
+}
+
+section > ul{
+    columns: 2;
+    list-style-type: "\1F370\00A0\00A0";
+}
+
+#donut{
+    max-width: 150px;
+}
+
+.p{
+    text-indent: 20px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #001c00;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+   
+}
+
+footer > p{
+    padding: 5px;
+    margin: 0px;
+}
+
+main p{
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+
+a:hover{
+    background-image: linear-gradient(to right, rgb(75, 151, 75), rgb(24, 167, 24));
+    color: rgb(4, 44, 4);
+    transition-duration: 0.5s;
+}
+
+a.linkexterno{
+    background-color: rgb(104, 156, 104);
+    text-decoration: underline;
+    color: rgb(3, 26, 3);
+    padding: 3px 5px;
+}
+
+a.linkexterno::after{
+    content: "\00A0\1F517";
+}
+
+strong{
+    color: rgb(129, 151, 129);
+}
+
+footer a#linkrodape{
+    color: rgb(10, 48, 10);
+    text-decoration: none;
+    background-color: rgb(169, 212, 169);
+    border-radius: 3px;
+    padding: 2px;
+    font-weight: bolder;
+    
+}
+
+footer a#linkrodape:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
